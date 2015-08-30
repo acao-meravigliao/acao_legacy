@@ -1,0 +1,21 @@
+acao_sqlserver:
+  adapter: sqlserver
+  mode: dblib
+  dataserver: acao_sql_server
+  database:
+  username: orlandi
+  password: weefae5Aidie
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: acao
+  username:
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: acao
+  username:
+  password:
