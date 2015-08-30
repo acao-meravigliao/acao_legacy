@@ -16,7 +16,7 @@ namespace :acao do
       if !p
         Ygg::Acao::Plane.create(
           registration: registration,
-          flarm_id: flarm_id,
+          flarm_id: 'flarm:' + flarm_id,
           uuid: SecureRandom.uuid,
         )
       else
